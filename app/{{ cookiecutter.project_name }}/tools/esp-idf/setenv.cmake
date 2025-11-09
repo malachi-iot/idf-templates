@@ -1,0 +1,1 @@
+set(COMPONENTS main)
