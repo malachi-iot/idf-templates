@@ -1,4 +1,6 @@
-import os, shutil
+import os, sys, shutil
+
+#project_name = "{{ cookiecutter.project_name }}"
 
 # We want src, test, tools as root folder, not nested in 'project_name'/.  This moves
 # them up and removes aforementioned 'project_name'.
